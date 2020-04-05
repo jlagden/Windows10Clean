@@ -15,7 +15,7 @@ Now open the Store app, and let it download updates too.
 Again, this is important because updates would interfere with our activities.  
 This may take some time. 
 
-![](https://raw.githubusercontent.com/adolfintel/Windows10-Privacy/master/data/updates1809_2.jpg)
+![](https://raw.githubusercontent.com/jlagden/Windows10Clean/master/StoreDownloadUpdates.png)
 
 ![](https://raw.githubusercontent.com/jlagden/Windows10Clean/master/StoreUpdates.png)  
 
