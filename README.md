@@ -5,7 +5,8 @@
 Do not use the default settings, turn microphone off (Cortana will be disabled later)
 
 ## Let it download all the updates
-Once you get to the desktop, go to Settings > Updates and security, and let it download all the updates. Reboot and repeat until no more updates are available.  
+Once you get to the desktop, go to **Settings > Updates and security**, and let it download all the updates. 
+Reboot and repeat until no more updates are available.  
 This is important because Windows Update may interfere with our activities.
 
 ![](https://raw.githubusercontent.com/jlagden/Windows10Clean/master/Updates.PNG) 
