@@ -14,7 +14,7 @@ This is important because Windows Update may interfere with our activities.
 Now open the Store app, and let it download updates too.  
 Again, this is important because updates would interfere with our activities.  
 This may take some time. 
-
+s
 ![](https://raw.githubusercontent.com/jlagden/Windows10Clean/master/StoreDownloadUpdates.png)
 
 ![](https://raw.githubusercontent.com/jlagden/Windows10Clean/master/StoreUpdates.png)  
