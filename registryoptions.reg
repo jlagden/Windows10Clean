@@ -9,9 +9,13 @@ Windows Registry Editor Version 5.00
 "HttpAcceptLanguageOptOut"=dword:00000001
 
 ; Settings -> Privacy -> General -> Allow Windows to track app launches to improve Start and search results
-HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced]
 "Start_TrackProgs"=dword:00000000
 
-HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-338393Enabled
-HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-353694Enabled
-HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-353696Enabled
+; Settings -> Privacy -> General -> Show me suggested content in the settings app
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-338393Enabled"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-353694Enabled"
+[HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
+"SubscribedContent-353696Enabled"
