@@ -1,3 +1,17 @@
-Windows Registry Editor Version 5.00 
+Windows Registry Editor Version 5.00
+; Windows Clean Install (1909)
+; Settings -> Privacy -> General  -> Let apps use advertising ID to make ads more interesting to you based on your app activity (OFF)
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\AdvertisingInfo]
 "Enabled"=dword:00000000
+
+; Settings -> Privacy -> General -> Allow websites to provide locally relevant content by accessing my language list
+[HKEY_CURRENT_USER\Control Panel\International\User Profile]
+"HttpAcceptLanguageOptOut"=dword:00000001
+
+; Settings -> Privacy -> General -> Allow Windows to track app launches to improve Start and search results
+HKCU\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced\
+"Start_TrackProgs"=dword:00000000
+
+HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-338393Enabled
+HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-353694Enabled
+HKCU\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager\SubscribedContent-353696Enabled
