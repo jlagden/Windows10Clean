@@ -14,8 +14,8 @@ Windows Registry Editor Version 5.00
 
 ; Settings -> Privacy -> General -> Show me suggested content in the settings app
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
-"SubscribedContent-338393Enabled"
+"SubscribedContent-338393Enabled"=dword:00000000
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
-"SubscribedContent-353694Enabled"
+"SubscribedContent-353694Enabled"=dword:00000000
 [HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\ContentDeliveryManager]
-"SubscribedContent-353696Enabled"
+"SubscribedContent-353696Enabled"=dword:00000000
